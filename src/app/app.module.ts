@@ -8,6 +8,10 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { HrComponent } from './hr/hr.component';
 import { FinanceComponent } from './finance/finance.component';
+import { AbouthrComponent } from './hr/abouthr/abouthr.component';
+import { CompanyComponent } from './company/company.component';
+import { MarketingComponent } from './marketing/marketing.component';
+import { ResourcesComponent } from './resources/resources.component';
 
 
 @NgModule({
@@ -16,7 +20,11 @@ import { FinanceComponent } from './finance/finance.component';
     HomeComponent,
     AboutComponent,
     HrComponent,
-    FinanceComponent
+    FinanceComponent,
+    AbouthrComponent,
+    CompanyComponent,
+    MarketingComponent,
+    ResourcesComponent
   ],
   imports: [
     BrowserModule,
